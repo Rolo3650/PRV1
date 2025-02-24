@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Geologica';
-    src: url('fonts/Geologica/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf')
-        format('truetype');
+    src: url('fonts/Geologica/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,20 +52,33 @@
     ----color-4: #f0f0d8;
     ----color-5: #dfdfdf;
     ----color-6: white;
+    ----color-7: #232323;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(----color-5);
+    /* background-color: var(----color-5); */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: "Geologica", serif !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lexend Deca", serif !important;
 }
 
 a {
     text-decoration: none;
     font-family: "Montserrat", serif !important;
+}
+
+p, li {
+    font-family: "Poppins", serif !important;
 }
 
 .color-1 {
@@ -93,6 +105,10 @@ a {
     color: var(----color-6) !important;
 }
 
+.color-7 {
+    color: var(----color-7) !important;
+}
+
 .menu {
     position: relative;
     background-color: var(----color-2)
@@ -116,4 +132,26 @@ a {
 .menu a:hover {
     transition: ease-in-out .3s;
     text-decoration-color: var(----color-4);
+}
+
+.main-content {
+    position: relative;
+}
+
+.footer-divider {
+    background-color: var(----color-1)
+}
+
+.footer {
+    background-color: var(----color-7);
+}
+
+.row-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, .2);
+}
+
+.background-image  {
+    background-position: center;
+    background-size: cover;
 }
