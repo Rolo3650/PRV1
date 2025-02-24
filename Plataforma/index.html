@@ -55,7 +55,7 @@
         <!-- Start of content -->
         <div class="w-100 main-content py-5">
             <div style="max-width: 1200px; padding: 0 30px; margin: auto">
-                <h1 class="text-center fw-bold">PERFILES</h1>
+                <h1 class="text-center fw-bold">Plataforma de Desarrollo.</h1>
 
                 <div class="row row-card overflow-hidden mt-5">
                     <!-- Modify col from 1 - 12 to select the colomun with -->
@@ -106,33 +106,23 @@
                                         font-family: 'Lexend Deca', serif !important;
                                     "
                                 >
-                                    Administrador
+                                    
                                 </h4>
                                 <div class="px-3 text-justify">
                                     <!-- Init text -->
-                                    El administrador tendrá el control completo
-                                    sobre todas las entidades del sistema,
-                                    pudiendo acceder al <b>CRUD</b> (Crear,
-                                    Leer, Actualizar and Eliminar) de cada
-                                    elemento.
-                                    <br />
-                                    <br />
-                                    <b>Importante</b>: no se contemplará la
-                                    capacidad de eliminar la información, esta
-                                    podrá ser realizada únicamente por el
-                                    administrador y en casos específicos, pues
-                                    se busca un mayor control del sistema y
-                                    eliminar entidades que se relacionan
-                                    normalmente suelen converger en problemas de
-                                    integridad de los datos en el sistema, las
-                                    únicas entidades que contarán con esta
-                                    capacidad son:
+                                    El sistema a presentar es una plataforma web ejecutable en el navegador Chrome, 
+                                    la cual será programada utilizando múltiples tecnologías relacionadas con *Node.js*, 
+                                    ya que nos permitirá realizar el desarrollo con diversas ventajas, 
+                                    tales como:
                                     <br />
                                     <br />
                                     <ul>
-                                        <li>Incidencias</li>
-                                        <li>Cotizaciones</li>
-                                    </ul>
+                                    <li>Gran rendimiento:</li>
+                                    <li>Facilidad en el desarrollo Frontend y Backend.</li>
+                                    <li>Compatibilidad con bases de datos NoSQL.</li>                          
+                                    </ul>                               
+                                    <br />
+                                    <br />
                                     <!-- End Text -->
                                 </div>
                             </div>
@@ -165,147 +155,44 @@
                                         font-family: 'Geologica', serif !important;
                                     "
                                 >
-                                    Gerente
+                                    Principales tecnologías a utilizar.
                                 </h4>
                                 <div class="px-3 text-justify">
-                                    <h2>Crear</h2>
+                                    <h2>Mongo DB</h2>
                                     <p>
-                                        Los gerentes podrán crear las siguientes
-                                        entidades:
+                                        Para el desarrollo de la plataforma web, se ha elegido MongoDB como base de datos principal, 
+                                        ya que ofrece múltiples ventajas al trabajar junto con Node.js, optimizando el rendimiento y la escalabilidad del sistema.
+                                         Algunas de sus principales ventajas son:
                                     </p>
                                     <ul>
                                         <li>
-                                            <b>Contactos:</b> podrán crear
-                                            únicamente la disyunción de
-                                            contactos clientes.
+                                            <b>Modelo flexible:</b> A diferencia de las bases de datos relacionales, 
+                                            <i>MongoDB</i> almacena la información en un formato <i>JSON-like</i> (<i>BSON</i>), 
+                                            lo que permite manejar datos de forma más dinámica y sin complicaciones al hacer cambios en la estructura.
                                         </li>
                                         <li>
-                                            <b>Automóviles:</b> podrán crear los
-                                            automóviles que se encuentren en las
-                                            sucursales que administran.
+                                            <b>Alta escalabilidad:</b> Soporta <i>sharding</i> y <i>replicación</i>, 
+                                            lo que facilita el manejo de grandes volúmenes de datos y distribuye la carga en múltiples servidores sin afectar el rendimiento.
                                         </li>
                                         <li>
-                                            <b>Categoría:</b> podrán crear
-                                            categorías.
+                                            <b>Buen rendimiento:</b> Como trabaja con documentos en lugar de tablas y no depende de <i>joins</i>, 
+                                            las consultas son más rápidas y eficientes, incluso con grandes cantidades de información.
                                         </li>
                                         <li>
-                                            <b>Subcategoría:</b> podrán crear
-                                            subcategorías.
+                                            <b>Integración sencilla con Node.js:</b> Gracias a herramientas como <i>Mongoose</i> y el driver oficial de <i>MongoDB</i>, 
+                                            la conexión con <i>Node.js</i> es rápida y fácil de manejar.
                                         </li>
                                         <li>
-                                            <b>Servicio:</b> podrán crear los
-                                            servicios que se dispongan en las
-                                            sucursales que administran.
+                                            <b>Consultas avanzadas:</b> Aunque no usa <i>SQL</i>, permite realizar búsquedas complejas a través de agregaciones y operadores avanzados.
                                         </li>
                                         <li>
-                                            <b>Producto:</b> podrán crear los
-                                            productos que se dispongan en las
-                                            sucursales que administran.
+                                            <b>Ideal para datos semi-estructurados:</b> Perfecto para manejar registros de usuarios, configuraciones dinámicas o cualquier dato que no tenga una estructura fija.
                                         </li>
                                         <li>
-                                            <b>Cotización:</b> podrán crear las
-                                            cotizaciones que ellos realicen.
+                                            <b>Compatible con la nube:</b> Funciona sin problemas con servicios como <i>MongoDB Atlas</i>, facilitando la administración y escalabilidad en entornos productivos.
                                         </li>
                                         <li>
-                                            <b>Incidencias:</b> podrán crear
-                                            incidencias que se relacionen con
-                                            cualquiera de sus entidades que
-                                            administra.
-                                        </li>
-                                    </ul>
-
-                                    <h2>Leer</h2>
-                                    <p>
-                                        Los gerentes podrán visualizar la
-                                        información de las siguientes entidades:
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <b>Contactos:</b> podrán visualizar
-                                            la disyunción de contactos clientes
-                                            y operadores.
-                                        </li>
-                                        <li>
-                                            <b>Automóviles:</b> podrán
-                                            visualizar los automóviles que se
-                                            encuentren registrados en todas las
-                                            sucursales del sistema.
-                                        </li>
-                                        <li>
-                                            <b>Categoría:</b> podrán visualizar
-                                            categorías.
-                                        </li>
-                                        <li>
-                                            <b>Subcategoría:</b> podrán
-                                            visualizar subcategorías.
-                                        </li>
-                                        <li>
-                                            <b>Servicio:</b> podrán visualizar
-                                            los servicios que se dispongan en
-                                            todas las sucursales del sistema.
-                                        </li>
-                                        <li>
-                                            <b>Producto:</b> podrán visualizar
-                                            los productos que se dispongan en
-                                            todas las sucursales del sistema.
-                                        </li>
-                                        <li>
-                                            <b>Cotización:</b> podrán visualizar
-                                            las cotizaciones que se realicen en
-                                            la sucursal que administran.
-                                        </li>
-                                        <li>
-                                            <b>Incidencias:</b> podrán
-                                            visualizar incidencias que se
-                                            relacionen con cualquiera de sus
-                                            entidades que administra.
-                                        </li>
-                                    </ul>
-
-                                    <h2>Actualizar</h2>
-                                    <p>
-                                        Los gerentes podrán actualizar las
-                                        siguientes entidades:
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <b>Contactos:</b> podrán actualizar
-                                            únicamente la disyunción de
-                                            contactos clientes.
-                                        </li>
-                                        <li>
-                                            <b>Automóviles:</b> podrán
-                                            actualizar los automóviles que se
-                                            encuentren en las sucursales que
-                                            administran.
-                                        </li>
-                                        <li>
-                                            <b>Categoría:</b> podrán actualizar
-                                            categorías.
-                                        </li>
-                                        <li>
-                                            <b>Subcategoría:</b> podrán
-                                            actualizar subcategorías.
-                                        </li>
-                                        <li>
-                                            <b>Servicio:</b> podrán actualizar
-                                            los servicios que se dispongan en
-                                            las sucursales que administran.
-                                        </li>
-                                        <li>
-                                            <b>Producto:</b> podrán actualizar
-                                            los productos que se dispongan en
-                                            las sucursales que administran.
-                                        </li>
-                                        <li>
-                                            <b>Cotización:</b> podrán actualizar
-                                            las cotizaciones que ellos realicen.
-                                        </li>
-                                        <li>
-                                            <b>Incidencias:</b> podrán
-                                            actualizar incidencias que se
-                                            relacionen con cualquiera de sus
-                                            entidades que administra.
+                                            <b>Soporte para datos geoespaciales:</b> Incluye herramientas para trabajar con ubicaciones y realizar búsquedas basadas en coordenadas de manera eficiente.
                                         </li>
                                     </ul>
                                 </div>
