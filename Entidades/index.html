@@ -1,347 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/boostrap/css/bootstrap.css" />
+        <script src="/boostrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/global.css" />
+        <link rel="stylesheet" href="/index.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/boostrap/css/bootstrap.css" />
-    <script src="/boostrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/global.css" />
-    <link rel="stylesheet" href="/index.css" />
-</head>
-
-<body>
-    <!-- Start of menu -->
-    <div class="menu py-4 pe-5 d-flex justify-content-end">
-        <a href="/Nosotros/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            NOSOTROS
-        </a>
-        <a href="/Plataforma/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            PLATAFORMA
-        </a>
-        <a href="/Perfiles/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            PERFILES
-        </a>
-        <a href="/Entidades/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            ENTIDADES
-        </a>
-    </div>
-    <!-- End of menu -->
-
-    <!-- Start of content -->
-    <div class="w-100 main-content py-5">
-        <div style="max-width: 1200px; padding: 0 30px; margin: auto;">
-            <h1 class="text-center fw-bold">PERFILES</h1>
-
-            <div class="row row-card overflow-hidden mt-5">
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-6 item-background background-image" style="background-image: url(/img/img0.png);">
+    <body>
+        <!-- Start of menu -->
+        <div class="menu">
+            <div
+                class="d-flex justify-content-between align-items-center mx-auto"
+                style="max-width: 1200px"
+            >
+                <div class="py-2 px-3">
+                    <a href="/">
+                        <img src="/img/logo.png" alt="logo" class="menu-logo" />
+                    </a>
                 </div>
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-6 py-4 px-5">
-                    <div>
-                        <div class="info-item h-100">
-                            <div class="d-flex justify-content-center">
-                                <div class="icon p-3">
-                                    <!-- Icon -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <h4 class="text-center my-3 color-2" style="font-family: 'Lexend Deca', serif !important;">
-                                Administrador
-                            </h4>
-                            <p class="px-3 text-justify">
-                                <!-- Init text -->
-                                El administrador tendrá el control completo sobre todas las entidades del sistema,
-                                pudiendo acceder al <b>CRUD</b> (Crear, Leer, Actualizar and Eliminar) de cada elemento.
-                                <br>
-                                <br>
-                                <b>Importante</b>: no se contemplará la capacidad de eliminar la información, esta podrá
-                                ser realizada únicamente por el administrador y en casos específicos, pues se busca un
-                                mayor control del sistema y eliminar entidades que se relacionan normalmente suelen
-                                converger en problemas de integridad de los datos en el sistema, las únicas entidades
-                                que contarán con esta capacidad son:
-                                <br>
-                                <br>
-                            <ul>
-                                <li>Incidencias</li>
-                                <li>Cotizaciones</li>
-                            </ul>
-                            <!-- End Text -->
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-card overflow-hidden mt-5">
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-8 py-4 px-5">
-                    <div>
-                        <div class="info-item h-100">
-                            <div class="d-flex justify-content-center">
-                                <div class="icon p-3">
-                                    <!-- Icon -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                                Gerente
-                            </h4>
-                            <p class="px-3 text-justify">
-                            <h2>Crear</h2>
-                            <p>Los gerentes podrán crear las siguientes entidades:</p>
-                            <ul>
-                                <li><b>Contactos:</b> podrán crear únicamente la disyunción de contactos
-                                    clientes.</li>
-                                <li><b>Automóviles:</b> podrán crear los automóviles que se encuentren en las
-                                    sucursales que administran.</li>
-                                <li><b>Categoría:</b> podrán crear categorías.</li>
-                                <li><b>Subcategoría:</b> podrán crear subcategorías.</li>
-                                <li><b>Servicio:</b> podrán crear los servicios que se dispongan en las
-                                    sucursales que administran.</li>
-                                <li><b>Producto:</b> podrán crear los productos que se dispongan en las
-                                    sucursales que administran.</li>
-                                <li><b>Cotización:</b> podrán crear las cotizaciones que ellos realicen.</li>
-                                <li><b>Incidencias:</b> podrán crear incidencias que se relacionen con
-                                    cualquiera de sus entidades que administra.</li>
-                            </ul>
-
-                            <h2>Leer</h2>
-                            <p>Los gerentes podrán visualizar la información de las siguientes entidades:</p>
-                            <ul>
-                                <li><b>Contactos:</b> podrán visualizar la disyunción de contactos clientes y
-                                    operadores.</li>
-                                <li><b>Automóviles:</b> podrán visualizar los automóviles que se encuentren
-                                    registrados en todas las sucursales del sistema.</li>
-                                <li><b>Categoría:</b> podrán visualizar categorías.</li>
-                                <li><b>Subcategoría:</b> podrán visualizar subcategorías.</li>
-                                <li><b>Servicio:</b> podrán visualizar los servicios que se dispongan en todas
-                                    las sucursales del sistema.</li>
-                                <li><b>Producto:</b> podrán visualizar los productos que se dispongan en todas
-                                    las sucursales del sistema.</li>
-                                <li><b>Cotización:</b> podrán visualizar las cotizaciones que se realicen en
-                                    la sucursal que administran.</li>
-                                <li><b>Incidencias:</b> podrán visualizar incidencias que se relacionen con
-                                    cualquiera de sus entidades que administra.</li>
-                            </ul>
-
-                            <h2>Actualizar</h2>
-                            <p>Los gerentes podrán actualizar las siguientes entidades:</p>
-                            <ul>
-                                <li><b>Contactos:</b> podrán actualizar únicamente la disyunción de contactos
-                                    clientes.</li>
-                                <li><b>Automóviles:</b> podrán actualizar los automóviles que se encuentren en
-                                    las sucursales que administran.</li>
-                                <li><b>Categoría:</b> podrán actualizar categorías.</li>
-                                <li><b>Subcategoría:</b> podrán actualizar subcategorías.</li>
-                                <li><b>Servicio:</b> podrán actualizar los servicios que se dispongan en las
-                                    sucursales que administran.</li>
-                                <li><b>Producto:</b> podrán actualizar los productos que se dispongan en las
-                                    sucursales que administran.</li>
-                                <li><b>Cotización:</b> podrán actualizar las cotizaciones que ellos realicen.
-                                </li>
-                                <li><b>Incidencias:</b> podrán actualizar incidencias que se relacionen con
-                                    cualquiera de sus entidades que administra.</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-4 item-background background-image" style="background-image: url(/img/img1.jpg);">
-                </div>
-            </div>
-
-            <div class="row row-card overflow-hidden mt-5">
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-4 item-background background-image" style="background-image: url(/img/img1.jpg);">
-                </div>
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-8 py-4 px-5">
-                    <div>
-                        <div class="info-item h-100">
-                            <div class="d-flex justify-content-center">
-                                <div class="icon p-3">
-                                    <!-- Icon -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                                Ejecutivo
-                            </h4>
-                            <p class="px-3 text-justify">
-                            <p>El usuario ejecutivo representa de forma abstracta a los encargados de las ventas en las
-                                sucursales. Su enfoque está especializado en las cotizaciones, ya que son quienes
-                                constantemente manipulan el sistema y siguen las reglas de negocio.</p>
-
-                            <h3>Crear</h3>
-                            <p>Los ejecutivos podrán crear las siguientes entidades:</p>
-                            <ul>
-                                <li><strong>Contactos:</strong> podrán crear únicamente la disyunción de contactos
-                                    clientes.</li>
-                                <li><strong>Cotización:</strong> podrán crear las cotizaciones que ellos realicen.</li>
-                                <li><strong>Incidencias:</strong> podrán crear incidencias relacionadas con cualquiera
-                                    de sus entidades administradas.</li>
-                            </ul>
-
-                            <h3>Leer</h3>
-                            <p>Los ejecutivos podrán visualizar la información de las siguientes entidades:</p>
-                            <ul>
-                                <li><strong>Contactos:</strong> podrán visualizar la disyunción de contactos clientes y
-                                    operadores.</li>
-                                <li><strong>Automóviles:</strong> podrán visualizar los automóviles registrados en todas
-                                    las sucursales del sistema.</li>
-                                <li><strong>Categoría:</strong> podrán visualizar categorías.</li>
-                                <li><strong>Subcategoría:</strong> podrán visualizar subcategorías.</li>
-                                <li><strong>Servicio:</strong> podrán visualizar los servicios disponibles en todas las
-                                    sucursales del sistema.</li>
-                                <li><strong>Producto:</strong> podrán visualizar los productos disponibles en todas las
-                                    sucursales del sistema.</li>
-                                <li><strong>Cotización:</strong> podrán visualizar únicamente las cotizaciones que ellos
-                                    realicen.</li>
-                                <li><strong>Incidencias:</strong> podrán visualizar incidencias relacionadas con
-                                    cualquiera de sus entidades administradas.</li>
-                            </ul>
-
-                            <h3>Actualizar</h3>
-                            <p>Los ejecutivos podrán actualizar las siguientes entidades:</p>
-                            <ul>
-                                <li><strong>Automóviles:</strong> podrán actualizar únicamente el estado de venta de los
-                                    automóviles en el sistema.</li>
-                                <li><strong>Producto:</strong> podrán actualizar únicamente la cantidad de productos en
-                                    el sistema, y esta acción estará vinculada a una cotización.</li>
-                                <li><strong>Cotización:</strong> podrán actualizar las cotizaciones que ellos realicen.
-                                </li>
-                                <li><strong>Incidencias:</strong> podrán actualizar incidencias relacionadas con
-                                    cualquiera de sus entidades administradas.</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-card overflow-hidden mt-5">
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-6 py-4 px-5">
-                    <div>
-                        <div class="info-item h-100">
-                            <div class="d-flex justify-content-center">
-                                <div class="icon p-3">
-                                    <!-- Icon -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                                Proveedor
-                            </h4>
-                            <p class="px-3 text-justify">
-                            <p>El usuario proveedor dentro del modelo de negocio será el último recurso que las demás
-                                entidades tendrán en caso de necesitar un producto. Si la cantidad de inventario llega a
-                                cero, deberán solicitar más productos a los proveedores.</p>
-
-                            <h3>Crear</h3>
-                            <ul>
-                                <li><strong>Contactos:</strong> podrán crear únicamente la disyunción de contactos
-                                    operadores.</li>
-                            </ul>
-
-                            <h3>Leer</h3>
-                            <ul>
-                                <li><strong>Contactos:</strong> podrán visualizar la disyunción de contactos operadores.
-                                </li>
-                                <li><strong>Cotización:</strong> podrán visualizar las cotizaciones que se relacionen
-                                    con ellos.</li>
-                                <li><strong>Incidencias:</strong> podrán visualizar incidencias relacionadas con
-                                    cualquiera de sus entidades administradas.</li>
-                            </ul>
-
-                            <h3>Actualizar</h3>
-                            <ul>
-                                <li><strong>Contactos:</strong> podrán visualizar la disyunción de contactos operadores.
-                                </li>
-                                <li><strong>Cotización:</strong> podrán actualizar las cotizaciones que se relacionen
-                                    con ellos, marcando los productos como entregados.</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modify col from 1 - 12 to select the colomun with -->
-                <div class="col-6 item-background background-image" style="background-image: url(/img/img1.jpg);">
+                <div class="d-flex justify-content-end py-3">
+                    <a
+                        href="/Nosotros/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        NOSOTROS
+                    </a>
+                    <a
+                        href="/Plataforma/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        PLATAFORMA
+                    </a>
+                    <a
+                        href="/Perfiles/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        PERFILES
+                    </a>
+                    <a
+                        href="/Entidades/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        ENTIDADES
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End of content -->
+        <!-- End of menu -->
 
-    <!-- Start of footer -->
-    <div class="footer-divider">
-        <h6 class="text-center color-6 m-0 py-1">
-            DESARROLLADO POR ACTK ©
-        </h6>
-    </div>
-    <div class="footer color-6">
-        <div class="py-5" style="max-width: 1200px; padding: 0 30px;">
-            <div class="row">
-                <div class="col-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8600891187693!2d-99.14889792580428!3d19.504654338377804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f94c06d75fd7%3A0x3fe1567da2190ac9!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1740415498571!5m2!1ses-419!2smx"
-                        style="width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Start of content -->
+        <div class="w-100 main-content py-5">
+            <div style="max-width: 1200px; padding: 0 30px; margin: auto">
+                <h1 class="text-center fw-bold">ENTIDADES</h1>
+
+                <div class="text-center mt-5">
+                    <div class="d-inline custom-badge px-3 py-1 color-7">
+                        ¿Qué puntos debemos considerar?
+                    </div>
+                    <div class="mt-4 mx-auto" style="max-width: 600px">
+                        <p>
+                            La consideración de entidades puede cambiar con base
+                            en el desarrollo del proyecto ya que realizar el
+                            proceso de investigación no nos inhibe de la
+                            necesidad de refactorizar sus atributos o modelos,
+                            pues conforme se avanza con el proyecto se pueden
+                            identificar problemas de consideración más
+                            minuciosos que obliguen a los desarrolladores a
+                            tomar otro enfoque sobre la situación.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <ul>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                INICIO
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                NOSOTROS
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                PLATAFORMA
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                ENTIDADES
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                PERFILES
-                            </a>
-                        </li>
-                    </ul>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                USUARIOS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Entidades más relevantes dentro de nuestro
+                                proyecto ya que a partir de estos se diseñarán
+                                todas las interfaces que interactúen con el
+                                cliente final, se dividirán en 4 usuarios los
+                                cuales van a contener los permisos principales
+                                para toda la manipulación de los CRUDs
+                                dependiendo de sus credenciales, los tipos de
+                                perfiles que se contemplan son administrador,
+                                gerente, ejecutivo y proveedor.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1m-8 2.999c1.648 0 3 1.351 3 3A3.01 3.01 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3M19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                CONTACTOS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Son el registro principal en el cual se
+                                almacenará la información de los clientes y
+                                operadores, se comprende como cliente la entidad
+                                disyuntiva de contactos la cual busca realizar
+                                una cotización de los productos ofrecidos por la
+                                agencia _Ford_ (Automóviles, Productos y
+                                Servicios) y como operadores los contactos que
+                                transporten todos los productos, estos últimos
+                                siendo registrados por los proveedores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                AUTOMÓVILES
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Entidades que contendrán toda la información
+                                referente a los automóviles así como sus
+                                características y detalles, los automóviles
+                                tendrán asignados las sucursales o, en el debido
+                                proceso, su registro sobre una cotización.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="48"
+                                        height="48"
+                                        viewBox="0 0 48 48"
+                                    >
+                                        <defs>
+                                            <mask id="ipSLocal0">
+                                                <g
+                                                    fill="none"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="4"
+                                                >
+                                                    <path
+                                                        stroke="#fff"
+                                                        stroke-linecap="round"
+                                                        d="M9.858 32.757C6.238 33.843 4 35.343 4 37c0 3.314 8.954 6 20 6s20-2.686 20-6c0-1.657-2.239-3.157-5.858-4.243"
+                                                    />
+                                                    <path
+                                                        fill="#fff"
+                                                        stroke="#fff"
+                                                        d="M24 35s13-8.496 13-18.318C37 9.678 31.18 4 24 4S11 9.678 11 16.682C11 26.504 24 35 24 35Z"
+                                                    />
+                                                    <path
+                                                        fill="#000"
+                                                        stroke="#000"
+                                                        d="M24 22a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"
+                                                    />
+                                                </g>
+                                            </mask>
+                                        </defs>
+                                        <path
+                                            fill="currentColor"
+                                            d="M0 0h48v48H0z"
+                                            mask="url(#ipSLocal0)"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                SUCURSALES
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Las sucursales plantean guardar la información
+                                de las agencias y los corralones, las agencias
+                                son la disyunción que describen toda la parte
+                                administrativa, ventas y servicios, y los
+                                corralones son almacenes para los vehículos y
+                                productos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M7.425 9.475L11.15 3.4q.15-.25.375-.363T12 2.925t.475.113t.375.362l3.725 6.075q.15.25.15.525t-.125.5t-.35.363t-.525.137h-7.45q-.3 0-.525-.137T7.4 10.5t-.125-.5t.15-.525M17.5 22q-1.875 0-3.187-1.312T13 17.5t1.313-3.187T17.5 13t3.188 1.313T22 17.5t-1.312 3.188T17.5 22M3 20.5v-6q0-.425.288-.712T4 13.5h6q.425 0 .713.288T11 14.5v6q0 .425-.288.713T10 21.5H4q-.425 0-.712-.288T3 20.5"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                CATEGORÍAS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Etiquetas que agruparán de forma más general
+                                todo tipo de registros, cualquier entidad a la
+                                que se le asigne una categoría, tendrá por
+                                subsecuente asignadas todas las subcategorías
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="32"
+                                        height="32"
+                                        viewBox="0 0 32 32"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M29 10h-5v2h5v6h-7v2h3v2.142a4 4 0 1 0 2 0V20h2a2.003 2.003 0 0 0 2-2v-6a2 2 0 0 0-2-2m-1 16a2 2 0 1 1-2-2a2.003 2.003 0 0 1 2 2M19 6h-5v2h5v6h-7v2h3v6.142a4 4 0 1 0 2 0V16h2a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-1 20a2 2 0 1 1-2-2a2.003 2.003 0 0 1 2 2M9 2H3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2v10.142a4 4 0 1 0 2 0V12h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2M8 26a2 2 0 1 1-2-2a2 2 0 0 1 2 2M3 10V4h6l.002 6z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                SUBCATEGORIAS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Etiquetas más específicas que agrupan con una
+                                mayor precisión los registros a los cuales se
+                                les desean asignar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="512"
+                                        height="512"
+                                        viewBox="0 0 512 512"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M468.915 401.333q.345 1.631.406 3.295l.013.706v21.333c0 23.564-42.981 42.667-96 42.667c-52.49 0-95.14-18.723-95.987-41.961l-.013-.706v-21.333l.013-.706q.06-1.66.402-3.288c5.88 4.419 13.037 8.494 21.331 11.983c19.36 8.144 45.463 13.344 74.254 13.344c29.932 0 56.956-5.629 76.546-14.335c7.323-3.255 13.697-6.982 19.035-10.999M234.667 34.347l192 106.667l.001 78.722c-15.727-4.038-33.92-6.402-53.334-6.402c-29.239 0-55.704 5.375-75.228 14.052c-26.733 11.882-40.343 30.052-42.063 48.441l-.049.557l.122 172.713l-21.449 11.917l-192-106.667V141.014zm234.248 302.986q.345 1.631.406 3.295l.013.706v21.333c0 23.564-42.981 42.667-96 42.667c-52.49 0-95.14-18.723-95.987-41.961l-.013-.706v-21.333l.013-.706q.06-1.66.402-3.288c5.88 4.419 13.037 8.494 21.331 11.983c19.36 8.144 45.463 13.344 74.254 13.344c29.932 0 56.956-5.629 76.546-14.335c7.323-3.255 13.697-6.982 19.035-10.999M170.666 233.455l.001 144.598l42.667 23.704V257.158zm-85.332-47.406v144.594L128 354.348V209.752zm288 48.618c52.489 0 95.14 18.722 95.987 41.961l.013.706v21.333c0 23.564-42.981 42.667-96 42.667c-52.49 0-95.14-18.723-95.987-41.961l-.013-.706v-21.333l.142-2.341c2.734-22.476 44.606-40.326 95.858-40.326m-54.676-106.251l-125.579 70.086l41.588 23.104l125.867-69.926zm-83.991-46.662L108.8 151.68l41.662 23.146L276.04 104.74z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                PRODUCTOS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Similar a servicios, con la significativa
+                                diferencia de un inventario por sucursal, además
+                                de poder ser solicitado por un ejecutivo hacia
+                                un proveedor, el cual le asignará un operador
+                                para llevar el producto, estos productos también
+                                se relacionarán con las cotizaciones y los
+                                contactos clientes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M4 20q-.825 0-1.412-.587T2 18v-4h5v1h2v-1h6v1h2v-1h5v4q0 .825-.587 1.413T20 20zm-1.575-8L4.5 7.2q.225-.55.725-.875T6.3 6H7V5q0-.825.588-1.413T9 3h6q.825 0 1.413.588T17 5v1h.7q.575 0 1.075.325t.725.875l2.075 4.8H17v-1h-2v1H9v-1H7v1zM9 6h6V5H9z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                SERVICIOS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Registro el cual contará con toda la información
+                                referente a los diferentes tipos de servicios
+                                que provee la sucursal, estos servicios se
+                                disponen de un precio y descripciones, además de
+                                esto se le podrán asignar categorías y
+                                subcategorías para una búsqueda más dinámica
+                                dentro del sistema, por último, estos servicios
+                                serán relacionados con las cotizaciones y
+                                contactos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M18.413 3.31C17.428 3 16.528 3 14.728 3H9.272c-1.8 0-2.7 0-3.684.31a3.83 3.83 0 0 0-2.279 2.278C3 6.56 3 7.466 3 9.272v5.453c0 1.803 0 2.703.31 3.688a3.82 3.82 0 0 0 2.278 2.278C6.56 21 7.466 21 9.272 21h5.456c1.8 0 2.7 0 3.685-.315a3.82 3.82 0 0 0 2.278-2.278c.309-.973.309-1.879.309-3.684V9.275c0-1.803 0-2.703-.31-3.687a3.82 3.82 0 0 0-2.277-2.279M15.45 9.693a.356.356 0 0 1-.506 0l.006.005a3.77 3.77 0 0 0-2.447-.925c-.742 0-1.482.27-1.482.95c0 .649.678.897 1.505 1.2l.205.075c1.603.554 2.925 1.235 2.925 2.849c0 1.752-1.328 2.953-3.507 3.1l-.197.953a.37.37 0 0 1-.365.298l-1.364-.011a.373.373 0 0 1-.358-.453l.209-1.004a4.96 4.96 0 0 1-2.192-1.238a.38.38 0 0 1 0-.54l.76-.76a.366.366 0 0 1 .517 0c.731.735 1.676 1.036 2.576 1.036c.99 0 1.66-.41 1.66-1.111c0-.615-.55-.822-1.592-1.213l-.35-.131c-1.34-.481-2.609-1.182-2.609-2.813c0-1.884 1.536-2.804 3.347-2.897l.197-.95a.37.37 0 0 1 .36-.299h1.36c.234 0 .409.22.36.453l-.221 1.069a5.6 5.6 0 0 1 1.89 1.08c.157.152.166.405.017.546z"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                COTIZACIONES
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                Entidad que representa la forma más abstracta de
+                                una solicitud por parte de un contacto cliente
+                                que busca satisfacer la necesidad ya sea de un
+                                producto, un servicio o un automóvil, estas
+                                cotizaciones son registradas por un ejecutivo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M12 17q.425 0 .713-.288T13 16v-4q0-.425-.288-.712T12 11t-.712.288T11 12v4q0 .425.288.713T12 17m0-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 13q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                INCIDENCIAS
+                            </h4>
+                            <p class="mx-auto" style="text-align: justify">
+                                La parte más importante de una organización se
+                                basa en la administración de incidencias, por
+                                este motivo estamos agregando la entidad que
+                                busca almacenar los reportes que describen todos
+                                los casos de complicaciones dentro de las
+                                sucursales.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End of footer -->
-</body>
+        <!-- End of content -->
 
+        <!-- Start of footer -->
+        <div class="footer-divider">
+            <h6 class="text-center color-6 m-0 py-1">
+                DESARROLLADO POR ACTK ©
+            </h6>
+        </div>
+        <div class="footer color-6">
+            <div
+                class="py-5 mx-auto"
+                style="max-width: 1200px; padding: 0 30px"
+            >
+                <div class="row">
+                    <div class="col-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8600891187693!2d-99.14889792580428!3d19.504654338377804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f94c06d75fd7%3A0x3fe1567da2190ac9!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1740415498571!5m2!1ses-419!2smx"
+                            style="width: 100%; height: 100%; border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    INICIO
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    NOSOTROS
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    PLATAFORMA
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    ENTIDADES
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    PERFILES
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <img class="w-100" src="img/logo.png" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of footer -->
+    </body>
 </html>

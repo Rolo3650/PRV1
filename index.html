@@ -1,238 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="boostrap/css/bootstrap.css" />
+        <script src="boostrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="boostrap/css/bootstrap.css" />
-    <script src="boostrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-    <!-- Start of menu -->
-    <div class="menu py-4 pe-5 d-flex justify-content-end">
-        <a href="/Nosotros/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            NOSOTROS
-        </a>
-        <a href="/Plataforma/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            PLATAFORMA
-        </a>
-        <a href="/Perfiles/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            PERFILES
-        </a>
-        <a href="/Entidades/" class="color-4 fs-5 fw-semibold py-2 px-3">
-            ENTIDADES
-        </a>
-    </div>
-    <!-- End of menu -->
-
-    <!-- Start of banner -->
-    <div class="w-100 banner-1" style="padding-top: 370px;">
-        <div class="d-flex justify-content-center" style="max-width: 1200px; padding: 0 30px; margin: auto;">
-            <div class="main-title py-4 px-5">
-                <h1 class="fw-bold text-center">SICOVE</h1>
-                <h3 class="fw-bold text-center">SISTEMA DE CONTROL VEHICULAR</h3>
-                <div class="d-flex justify-content-center">
-                    <p class="text-center mt-4" style="max-width: 450px;">
-                        El sistema SICOVE busca facilitar la organización de inventario en espacios de control
-                        vehicular, así como sus productos, servicios y proveedores, utiliza nuestro sistema de una forma
-                        intuitiva y cómoda, conoce más acerca de nostros y lo que hacemos.
-                    </p>
+    <body>
+        <!-- Start of menu -->
+        <div class="menu">
+            <div
+                class="d-flex justify-content-between align-items-center mx-auto"
+                style="max-width: 1200px"
+            >
+                <div class="py-2 px-3">
+                    <a href="/">
+                        <img src="/img/logo.png" alt="logo" class="menu-logo" />
+                    </a>
+                </div>
+                <div class="d-flex justify-content-end py-3">
+                    <a
+                        href="/Nosotros/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        NOSOTROS
+                    </a>
+                    <a
+                        href="/Plataforma/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        PLATAFORMA
+                    </a>
+                    <a
+                        href="/Perfiles/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        PERFILES
+                    </a>
+                    <a
+                        href="/Entidades/"
+                        class="color-4 fs-5 fw-semibold py-2 px-3"
+                    >
+                        ENTIDADES
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End of banner -->
+        <!-- End of menu -->
 
-    <!-- Start of content -->
-    <div class="w-100 main-content">
-        <div class="py-5" style="max-width: 1200px; padding: 0 30px; margin: auto;">
-            <h2 class="text-center fw-bold color-7">Principales Características
-            </h2>
-
-            <div class="row mt-5 info-container">
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            CONTROL VEHICULAR
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Manten un control completo de tus vehículos.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path fill="currentColor" fill-rule="evenodd"
-                                        d="M20 4H4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1M4 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zm2 5h2v2H6zm5 0a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zm-3 4H6v2h2zm2 1a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1m-2 3H6v2h2zm2 1a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            INVENTARIO DE
-                            <br>
-                            PRODUCTOS
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Dispon de tu propio inventario de productos.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M4 20q-.825 0-1.412-.587T2 18v-4h5v1h2v-1h6v1h2v-1h5v4q0 .825-.587 1.413T20 20zm-1.575-8L4.5 7.2q.225-.55.725-.875T6.3 6H7V5q0-.825.588-1.413T9 3h6q.825 0 1.413.588T17 5v1h.7q.575 0 1.075.325t.725.875l2.075 4.8H17v-1h-2v1H9v-1H7v1zM9 6h6V5H9z" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            CATÁLOGO DE
-                            <br>
-                            SERVICIOS
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Almacena los servicios disponibles en tus sucursales
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5 info-container">
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path fill="currentColor" fill-rule="evenodd"
-                                        d="M18.413 3.31C17.428 3 16.528 3 14.728 3H9.272c-1.8 0-2.7 0-3.684.31a3.83 3.83 0 0 0-2.279 2.278C3 6.56 3 7.466 3 9.272v5.453c0 1.803 0 2.703.31 3.688a3.82 3.82 0 0 0 2.278 2.278C6.56 21 7.466 21 9.272 21h5.456c1.8 0 2.7 0 3.685-.315a3.82 3.82 0 0 0 2.278-2.278c.309-.973.309-1.879.309-3.684V9.275c0-1.803 0-2.703-.31-3.687a3.82 3.82 0 0 0-2.277-2.279M15.45 9.693a.356.356 0 0 1-.506 0l.006.005a3.77 3.77 0 0 0-2.447-.925c-.742 0-1.482.27-1.482.95c0 .649.678.897 1.505 1.2l.205.075c1.603.554 2.925 1.235 2.925 2.849c0 1.752-1.328 2.953-3.507 3.1l-.197.953a.37.37 0 0 1-.365.298l-1.364-.011a.373.373 0 0 1-.358-.453l.209-1.004a4.96 4.96 0 0 1-2.192-1.238a.38.38 0 0 1 0-.54l.76-.76a.366.366 0 0 1 .517 0c.731.735 1.676 1.036 2.576 1.036c.99 0 1.66-.41 1.66-1.111c0-.615-.55-.822-1.592-1.213l-.35-.131c-1.34-.481-2.609-1.182-2.609-2.813c0-1.884 1.536-2.804 3.347-2.897l.197-.95a.37.37 0 0 1 .36-.299h1.36c.234 0 .409.22.36.453l-.221 1.069a5.6 5.6 0 0 1 1.89 1.08c.157.152.166.405.017.546z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            REGISTRO DE COTIZACIONES
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Registra las cotizaciones que se realicen en tus sucursales.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                    <path fill="currentColor" fill-rule="evenodd"
-                                        d="M6 7a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm25 25a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1zm-.609-3.023l-3.184-3.184l-1.414 1.414l3.184 3.184zm-8.714-8.714l3.977 3.977l-1.414 1.415l-3.977-3.978v4.218h-2v-7.632h7.632v2z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            SOLICITUDES DE
-                            <br>
-                            PROVEEDORES
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Genera solicitudes a los proveedores registrados en el sistema.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-4 px-4">
-                    <div class="py-4 info-item h-100">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon p-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M11 17h2v-6h-2zm1-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 13q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22" />
-                                </svg>
-                            </div>
-                        </div>
-                        <h4 class="text-center my-3 color-2" style="font-family: 'Geologica', serif !important;">
-                            VALORACÓN DE
-                            <br>
-                            INCIDENCIAS
-                        </h4>
-                        <p class="mx-auto text-center">
-                            Manten un control completo sobre las incidencias de las entidades.
+        <!-- Start of banner -->
+        <div class="w-100 banner-1" style="padding-top: 370px">
+            <div
+                class="d-flex justify-content-center"
+                style="max-width: 1200px; padding: 0 30px; margin: auto"
+            >
+                <div class="main-title py-4 px-5">
+                    <h1 class="fw-bold text-center">SICOVE</h1>
+                    <h3 class="fw-bold text-center">
+                        SISTEMA DE CONTROL VEHICULAR
+                    </h3>
+                    <div class="d-flex justify-content-center">
+                        <p class="text-center mt-4" style="max-width: 450px">
+                            El sistema SICOVE busca facilitar la organización de
+                            inventario en espacios de control vehicular, así
+                            como sus productos, servicios y proveedores, utiliza
+                            nuestro sistema de una forma intuitiva y cómoda,
+                            conoce más acerca de nostros y lo que hacemos.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End of content -->
+        <!-- End of banner -->
 
-    <!-- Start of footer -->
-    <div class="footer color-6">
-        <div class="py-5" style="max-width: 1200px; padding: 0 30px;">
-            <div class="row">
-                <div class="col-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8600891187693!2d-99.14889792580428!3d19.504654338377804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f94c06d75fd7%3A0x3fe1567da2190ac9!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1740415498571!5m2!1ses-419!2smx"
-                        style="width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Start of content -->
+        <div class="w-100 main-content">
+            <div
+                class="py-5"
+                style="max-width: 1200px; padding: 0 30px; margin: auto"
+            >
+                <h2 class="text-center fw-bold color-7">
+                    Principales Características
+                </h2>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M3 18v-5a2 2 0 0 1 2-2V8a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3a2 2 0 0 1 2 2v5a2 2 0 1 1-4 0H7a2 2 0 1 1-4 0M9 6a2 2 0 0 0-2 2v3h10V8a2 2 0 0 0-2-2zm-3 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m12 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                CONTROL VEHICULAR
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Manten un control completo de tus vehículos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M20 4H4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1M4 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zm2 5h2v2H6zm5 0a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zm-3 4H6v2h2zm2 1a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1m-2 3H6v2h2zm2 1a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                INVENTARIO DE
+                                <br />
+                                PRODUCTOS
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Dispon de tu propio inventario de productos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M4 20q-.825 0-1.412-.587T2 18v-4h5v1h2v-1h6v1h2v-1h5v4q0 .825-.587 1.413T20 20zm-1.575-8L4.5 7.2q.225-.55.725-.875T6.3 6H7V5q0-.825.588-1.413T9 3h6q.825 0 1.413.588T17 5v1h.7q.575 0 1.075.325t.725.875l2.075 4.8H17v-1h-2v1H9v-1H7v1zM9 6h6V5H9z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                CATÁLOGO DE
+                                <br />
+                                SERVICIOS
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Almacena los servicios disponibles en tus
+                                sucursales
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <ul>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                INICIO
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                NOSOTROS
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                PLATAFORMA
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                ENTIDADES
-                            </a>
-                        </li>
-                        <li class="py-2">
-                            <a class="color-6 fw-bold" href="/Nosotros/"
-                                style="text-decoration: underline;text-decoration-color: var(--color-6);">
-                                PERFILES
-                            </a>
-                        </li>
-                    </ul>
+
+                <div class="row mt-5 info-container">
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M18.413 3.31C17.428 3 16.528 3 14.728 3H9.272c-1.8 0-2.7 0-3.684.31a3.83 3.83 0 0 0-2.279 2.278C3 6.56 3 7.466 3 9.272v5.453c0 1.803 0 2.703.31 3.688a3.82 3.82 0 0 0 2.278 2.278C6.56 21 7.466 21 9.272 21h5.456c1.8 0 2.7 0 3.685-.315a3.82 3.82 0 0 0 2.278-2.278c.309-.973.309-1.879.309-3.684V9.275c0-1.803 0-2.703-.31-3.687a3.82 3.82 0 0 0-2.277-2.279M15.45 9.693a.356.356 0 0 1-.506 0l.006.005a3.77 3.77 0 0 0-2.447-.925c-.742 0-1.482.27-1.482.95c0 .649.678.897 1.505 1.2l.205.075c1.603.554 2.925 1.235 2.925 2.849c0 1.752-1.328 2.953-3.507 3.1l-.197.953a.37.37 0 0 1-.365.298l-1.364-.011a.373.373 0 0 1-.358-.453l.209-1.004a4.96 4.96 0 0 1-2.192-1.238a.38.38 0 0 1 0-.54l.76-.76a.366.366 0 0 1 .517 0c.731.735 1.676 1.036 2.576 1.036c.99 0 1.66-.41 1.66-1.111c0-.615-.55-.822-1.592-1.213l-.35-.131c-1.34-.481-2.609-1.182-2.609-2.813c0-1.884 1.536-2.804 3.347-2.897l.197-.95a.37.37 0 0 1 .36-.299h1.36c.234 0 .409.22.36.453l-.221 1.069a5.6 5.6 0 0 1 1.89 1.08c.157.152.166.405.017.546z"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                REGISTRO DE COTIZACIONES
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Registra las cotizaciones que se realicen en tus
+                                sucursales.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 48"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M6 7a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm25 25a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1zm-.609-3.023l-3.184-3.184l-1.414 1.414l3.184 3.184zm-8.714-8.714l3.977 3.977l-1.414 1.415l-3.977-3.978v4.218h-2v-7.632h7.632v2z"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                SOLICITUDES DE
+                                <br />
+                                PROVEEDORES
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Genera solicitudes a los proveedores registrados
+                                en el sistema.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-4">
+                        <div class="py-4 info-item h-100">
+                            <div class="d-flex justify-content-center">
+                                <div class="icon p-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M11 17h2v-6h-2zm1-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 13q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4
+                                class="text-center my-3 color-2"
+                                style="
+                                    font-family: 'Geologica', serif !important;
+                                "
+                            >
+                                VALORACÓN DE
+                                <br />
+                                INCIDENCIAS
+                            </h4>
+                            <p class="mx-auto text-center">
+                                Manten un control completo sobre las incidencias
+                                de las entidades.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End of footer -->
-</body>
+        <!-- End of content -->
 
+        <!-- Start of footer -->
+        <div class="footer-divider">
+            <h6 class="text-center color-6 m-0 py-1">
+                DESARROLLADO POR ACTK ©
+            </h6>
+        </div>
+        <div class="footer color-6">
+            <div
+                class="py-5 mx-auto"
+                style="max-width: 1200px; padding: 0 30px"
+            >
+                <div class="row">
+                    <div class="col-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8600891187693!2d-99.14889792580428!3d19.504654338377804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f94c06d75fd7%3A0x3fe1567da2190ac9!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1740415498571!5m2!1ses-419!2smx"
+                            style="width: 100%; height: 100%; border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    INICIO
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    NOSOTROS
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    PLATAFORMA
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    ENTIDADES
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a
+                                    class="color-6 fw-bold"
+                                    href="/Nosotros/"
+                                    style="
+                                        text-decoration: underline;
+                                        text-decoration-color: var(--color-6);
+                                    "
+                                >
+                                    PERFILES
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <img class="w-100" src="/img/logo.png" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of footer -->
+    </body>
 </html>
