@@ -1,0 +1,6 @@
+.banner-1 {
+    content: '';
+    height: 700px;
+    background: url(img/img0.jpg) center;
+    background-size: cover;
+}
