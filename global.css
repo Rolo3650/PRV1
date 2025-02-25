@@ -79,6 +79,7 @@ a {
 
 p, li, div {
     font-family: "Poppins", serif !important;
+    text-align: justify;
 }
 
 .color-1 {
